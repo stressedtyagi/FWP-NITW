@@ -1,0 +1,26 @@
+body {
+    background-image: url("img2.jpg");
+    background-repeat: repeat;
+}
+
+div {
+    background-image: url("img.jpeg");
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Pacifico', cursive;
+}
+a {
+    font-family: 'Roboto Mono', monospace;
+}
+a:visited{
+    color: teal;
+}
+a:link {
+    color: yellow;
+}
+a:active {
+    color: tomato;
+}
+a:hover {
+    color: white;
+}

@@ -1,0 +1,16 @@
+body {
+    font-family: 'Averia Serif Libre';
+    margin: auto; 
+    margin-top: 10vh;
+    width: 720px; height: 400px;
+}
+input { 
+    border: 1px solid; 
+}
+td > label { 
+    margin-right: 10px;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 0 1em;
+}

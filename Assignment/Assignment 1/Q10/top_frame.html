@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: lightblue;
+        }
+        header {
+            display: flex;
+            flex-direction: column;
+        }
+        .header-hero {
+            display: flex;
+        }
+        .brand {
+            max-width: 200px;
+        }
+        .site-name-heading {
+            width: 100%;
+            text-align: center;
+        }
+        img {
+            width: 100%;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        nav ul li {
+            flex-grow: 1;
+            margin: 0;
+            padding: 0.67rem 0;
+            background-color: pink;
+            border: 2px double #ddd;
+        }
+        nav ul li a {
+            display: block;
+            width: 100%;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-hero">
+            <a href="index.html" class="brand" target="_parent">
+                <img src="fff.png" alt="Logo">
+            </a>
+            <h1 class="site-name-heading">ONLINE BOOK STORE</h1>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html" target="content" target="_parent">Home</a>
+                </li>
+                <li>
+                    <a href="login.html" target="content">Login</a>
+                </li>
+                <li>
+                    <a href="registration.html" target="content">Registration</a>
+                </li>
+                <li>
+                    <a href="cse.html" target="content">Catalogue</a>
+                </li>
+                <li>
+                    <a href="cart.html" target="content">Cart</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
