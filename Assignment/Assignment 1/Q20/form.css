@@ -1,49 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Laila:400,700);
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
-
-html,
-body,
-div,
-h1,
-h2,
-p,
-code,
-img,
-center,
-li,
-fieldset,
-form,
-label,
-nav {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-  outline: none;
-  -webkit-font-smoothing: antialiased;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-html {
-  overflow-y: scroll;
-}
-body {
-  font-family: Arial, Tahoma, sans-serif;
-  background: #ffffff;
-  font-size: 62.5%;
-  line-height: 1;
-  padding-top: 40px;
-}
-
-br {
-  display: block;
-  line-height: 1.6em;
-}
 
 input,
 textarea {
@@ -64,10 +19,10 @@ h1 {
   display: block;
   font-size: 3.1em;
   line-height: 1.45em;
-  font-family: "Laila", serif;
+  font-family: "Poppins", serif;
   text-align: center;
   font-weight: bold;
-  color: rgb(106, 82, 245);
+  color: rgb(255, 255, 255);
   text-shadow: 1px 1px 0 #fff;
 }
 

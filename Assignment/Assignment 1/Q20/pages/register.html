@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Information</title>
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../form.css" />
+  </head>
+  <body>
+    <header id="header">
+      <nav class="links" style="--items: 5">
+        <a href="../index.html">Home</a>
+        <a href="info.html">Information</a>
+        <a href="login.html">Login</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact Us</a>
+        <span class="line"></span>
+      </nav>
+    </header>
+    <div id="wrapper">
+      <h1>Hospital Registeration Form</h1>
+
+      <form onsubmit="return false">
+        <div class="col-2">
+          <label>
+            Name
+            <input
+              placeholder="What is your full name?"
+              id="name"
+              name="name"
+              tabindex="1"
+              required
+            />
+          </label>
+        </div>
+        <div class="col-2">
+          <label>
+            Symptoms
+            <input
+              placeholder="Enter symptoms"
+              id="symptoms"
+              name="symptoms"
+              tabindex="2"
+            />
+          </label>
+        </div>
+
+        <div class="col-3">
+          <label>
+            Phone Number
+            <input
+              placeholder="What is the best # to reach you?"
+              id="phone"
+              name="phone"
+              tabindex="3"
+              required
+            />
+          </label>
+        </div>
+        <div class="col-3">
+          <label>
+            Email
+            <input
+              placeholder="What is your e-mail address?"
+              id="email"
+              name="email"
+              tabindex="4"
+              required
+            />
+          </label>
+        </div>
+        <div class="col-3">
+          <label>
+            Visitation Required
+            <select tabindex="5">
+              <option>1-2 per week</option>
+              <option>3-4 per week</option>
+              <option>4-5 per week</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="col-4">
+          <label>
+            Address
+            <input
+              placeholder="Enter your address"
+              id="address"
+              name="address"
+              tabindex="6"
+            />
+          </label>
+        </div>
+        <div class="col-4">
+          <label>
+            Password
+            <input
+              type="password"
+              placeholder="Password"
+              id="password"
+              name="password"
+              tabindex="7"
+            />
+          </label>
+        </div>
+        <div class="col-4">
+          <label>Bed Required ?</label>
+          <center
+            style="position: relative; margin-bottom: 8px; padding-bottom: 14px"
+          >
+            <label class="toggle">
+              <input class="toggle__input" type="checkbox" checked />
+            </label>
+          </center>
+        </div>
+        <div class="col-4 switch">
+          <label>E-mail Updates?</label>
+          <center
+            style="position: relative; margin-bottom: 8px; padding-bottom: 14px"
+          >
+            <label class="toggle">
+              <input class="toggle__input" type="checkbox" checked />
+            </label>
+          </center>
+        </div>
+
+        <div class="col-submit">
+          <button class="submitbtn">Submit Form</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
