@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solution 13</title>
+    <style>
+      label {
+        font-size: 1.5em;
+        font-weight: bold;
+      }
+      input {
+        padding: 1em;
+        margin: 1.5em;
+        width: 40em;
+        font-size: 1.2em;
+      }
+      select {
+        padding: 1em;
+        font-size: 1.2em;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="text-align: center">
+      <code>
+        <b>Name:</b> Divyanshu Tyagi <br />
+        <b>Roll No:</b> 207919 <br />
+        <b>Reg. No:</b> MC20110 <br />
+        <b>Assignment No.:</b> 1 <br />
+        <b>Question No.:</b> 13 <br />
+      </code>
+      <hr />
+    </div>
+    <form id="calc" align="center">
+      <div>
+        <label>Number 1</label>
+        <input id="num1" name="num1" type="number" />
+      </div>
+      <div>
+        <label>Number 2</label>
+        <input id="num2" name="num2" type="number" />
+      </div>
+      <div>
+        <select id="operation" name="operation">
+          <option value="add">Addition</option>
+          <option value="sub">Subtraction</option>
+          <option value="mul">Multiplication</option>
+          <option value="div">Division</option>
+        </select>
+      </div>
+      <br />
+      <input type="submit" value="Calculate" />
+    </form>
+    <p id="result" style="font-weight: 700; font-size: 2em" align="center"></p>
+    <script src="main.js"></script>
+  </body>
+</html>

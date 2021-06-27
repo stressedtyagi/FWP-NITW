@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Question 14</title>
+    <style>
+      th,
+      td {
+        padding: 15px;
+        font-size: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="text-align: center">
+      <code>
+        <b>Name:</b> Divyanshu Tyagi <br />
+        <b>Roll No:</b> 207919 <br />
+        <b>Reg. No:</b> MC20110 <br />
+        <b>Assignment No.:</b> 1 <br />
+        <b>Question No.:</b> 14 <br />
+      </code>
+      <hr />
+    </div>
+    <script>
+      document.write(
+        "<table align='center'> <tr> <th>X<sup>1</sup></th> <th>X<sup>2</sup></th> <th>X<sup>3</sup></th> </tr>"
+      );
+      for (var n = 1; n <= 10; n++) {
+        document.write(
+          "<tr><td>" +
+            n +
+            "</td><td>" +
+            Math.pow(n, 2) +
+            "</td><td>" +
+            Math.pow(n, 3) +
+            "</td></tr>"
+        );
+      }
+      document.write("</table>");
+    </script>
+  </body>
+</html>

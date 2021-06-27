@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solution 15</title>
+    <style>
+      .form-control {
+        margin-bottom: 1rem;
+        display: flex;
+        flex-direction: column;
+      }
+      input,
+      select {
+        padding: 0.5rem;
+        width: 150px;
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+      <code>
+        <b>Name:</b> Divyanshu Tyagi <br />
+        <b>Roll No:</b> 207919 <br />
+        <b>Reg. No:</b> MC20110 <br />
+        <b>Assignment No.:</b> 1 <br />
+        <b>Question No.:</b> 15 <br />
+      </code>
+      <hr />
+    </center>
+    <form id="form" onsubmit="return false;">
+      <label>Enter number to Encrypt</label>
+      <input id="encryptField" type="text" name="number" />
+      <input type="submit" value="Encrypt" id="encryptBtn" />
+    </form>
+    <p id="encryptSymbol"></p>
+    <br />
+    <form id="form" onsubmit="return false;">
+      <label>Enter number to Decrypt</label>
+      <input id="decryptField" type="text" name="number" />
+      <input type="submit" value="Decrypt" id="decryptBtn" />
+    </form>
+    <p id="decryptSymbol"></p>
+    <script src="main.js"></script>
+  </body>
+</html>
