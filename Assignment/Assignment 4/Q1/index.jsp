@@ -17,7 +17,8 @@
 <br/>
     <center>
         <%
-            out.println("<h1> Divyanshu Tyagi </h1>");
+            String name = "Divyanshu Tyagi";
+            out.println("<h1> " + name + " </h1>");
         %>
     </center>
 
