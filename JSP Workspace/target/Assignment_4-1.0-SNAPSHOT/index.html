@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Beneficiary Data Form</title>
+</head>
+<body>
+<a href="searchUser.html">Search User</a>
+<h1>Enter USER Data</h1>
+<form action="submitUser.jsp" method="post">
+
+    <label for="name">Name: </label>
+    <input type="text" id="name" name="name" /><br />
+
+    <label for="age">Age: </label>
+    <input type="number" id="age" name="age" /><br />
+
+    <label>Gender: </label>
+    <input type="radio" name="gender" value="male"> Male
+    <input type="radio" name="gender" value="female"> Female
+    <br>
+
+    <label for="aid">Aadhaar Id: </label>
+    <input type="text" id="aid" name="aid" /><br />
+
+    <label for="rid">Reference Id: </label>
+    <input type="text" id="rid" name="rid" /><br />
+
+    <label for="vname">Vaccine name: </label>
+    <input type="text" id="vname" name="vname" /><br />
+
+    <label for="dod">Date of dose: </label>
+    <input type="date" id="dod" name="dod" /><br />
+
+    <input type="submit" value="Submit" />
+
+</form>
+</body>
+</html>
