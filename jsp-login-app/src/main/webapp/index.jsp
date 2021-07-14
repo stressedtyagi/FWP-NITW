@@ -10,5 +10,6 @@
                 Enter your password : <input type="password" id="password" name="password"> <br/>
                 <input type="submit" name="submit" id="submit" value="Login">
             </form>
+            <a href="register.jsp">REGISTER</a>
     </body>
 </html>
