@@ -14,8 +14,8 @@ public class Login extends HttpServlet {
         String username = request.getParameter("username");
         String password = request.getParameter("password");
         PrintWriter out = response.getWriter();
-        System.out.println("name:" + username + ", pass: " + password);
-        boolean flag = false;
+//        System.out.println("name:" + username + ", pass: " + password);
+//        boolean flag = false;
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             String host, user, pass;
